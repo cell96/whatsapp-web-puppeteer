@@ -14,7 +14,7 @@ This Node.js application uses Express and Puppeteer to automate the process of s
 
 Before you begin, ensure you have met the following requirements:
 
-- Node.js installed (version 12 or higher recommended).
+- Node.js installed.
 - A WhatsApp account for sending messages.
 
 ## Installation
@@ -22,10 +22,10 @@ Before you begin, ensure you have met the following requirements:
 To install the WhatsApp Puppeteer Messaging App, follow these steps:
 
 1. Clone the repository:
-   `git clone https://github.com/cell96/yourrepository.git`
+   `git clone https://github.com/cell96/whatsapp-web-puppeteer.git`
 
 2. Navigate to the project directory:
-   `cd yourrepository`
+   `cd whatsapp-web-puppeteer`
 
 3. Install dependencies:
    `npm install`
