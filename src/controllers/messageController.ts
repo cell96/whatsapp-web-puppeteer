@@ -36,6 +36,8 @@ async function sendMessage(req: Request, res: Response) {
       });
     }
 
+    await new Promise((r) => setTimeout(r, 1000));
+
     for (const num of numbers) {
       logger.info(`Sending message: ${message} to: ${num}`);
 
@@ -47,7 +49,7 @@ async function sendMessage(req: Request, res: Response) {
       await page.waitForFunction(
         (selector) => !document.querySelector(selector),
         {},
-        FILTER_OPEN_SELECTOR,
+        FILTER_OPEN_SELECTOR
       );
 
       await page.keyboard.press('Enter');
